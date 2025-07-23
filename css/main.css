@@ -1,13 +1,32 @@
 @charset "utf-8";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-a{
-    color: #0a0a0a;
-    text-decoration: none;
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+/* 전체 영역 */
+.musical-wrap {
+  display: flex;
+  gap: 20px;
+  width: 1200px;
+  margin: auto;
+  background-color: aqua;
+}
+.musical-wrap > li {
+  width: calc(100% / 4);
+}
+.ticket-img > img {
+  width: 100%;
+  display: block;
+}
+.ticket-info {
+  background-color: aliceblue;
 }
